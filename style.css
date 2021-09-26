@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    color: purple;
+}
+
+label{
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.output-box{
+    font-size: 3rem;
+}
