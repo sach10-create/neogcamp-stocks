@@ -16,17 +16,21 @@ function calculateStocksResult(initial, quantity, current) {
         alert('Enter all the values');
     } else {
         if (initial > current) {
-            var loss = (inital - current) * quantity;
-            var lossPercent = (loss / inital) * 100;
-            console.log("loss")
+            var loss = (initial - current) * quantity;
+            var lossPercent = ((loss / initial) * 100).toFixed(2);
+            displayMessage("The loss is "+loss+ " and the loss percentage is " + lossPercent);
         } else if (current > initial) {
             var profit = (current - initial) * quantity;
-            var profitPercent = (profit / initial) * 100;
-            console.log("profit")
+            var profitPercent = ((profit / initial) * 100).toFixed(2);
+            displayMessage("the profit is "+profit+ " and the profit percentage is" + profitPercent);
         } else {
-
+            displayMessage("No pain No gain");
         }
     }
+}
+
+function displayMessage(message){
+    output.innerText   = message;
 }
 
 button.addEventListener("click", clickHandler);
