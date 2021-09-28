@@ -1,7 +1,8 @@
 body{
     text-align: center;
-    color: cyan;
-    background-color: black;
+    background-image: url("stocks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 label{
@@ -19,7 +20,7 @@ input{
 }
 
 button{
-    border: solid 5px cyan;
+    border: solid 1px black;
     text-align: center;
     font-size: 3rem;
     margin-top: 3rem;
