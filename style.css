@@ -1,31 +1,32 @@
-body{
+body {
     text-align: center;
     background-image: url("stocks.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-label{
+label {
     display: block;
     padding-bottom: 1rem;
     font-size: 3rem;
 }
-input{
+
+input {
     block-size: 3rem;
 }
 
-.output-box{
+.output-box {
     margin-top: 3rem;
     font-size: 3rem;
 }
 
-button{
+button {
     border: solid 1px black;
     text-align: center;
     font-size: 3rem;
     margin-top: 3rem;
 }
 
-.heading{
+.heading {
     font-size: 4rem;
 }
