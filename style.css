@@ -7,8 +7,24 @@ body{
 label{
     display: block;
     padding-bottom: 1rem;
+    font-size: 3rem;
+}
+input{
+    block-size: 3rem;
 }
 
 .output-box{
+    margin-top: 3rem;
     font-size: 3rem;
+}
+
+button{
+    border: solid 5px cyan;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+.heading{
+    font-size: 4rem;
 }

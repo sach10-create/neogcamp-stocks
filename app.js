@@ -20,15 +20,15 @@ function calculateStocksResult(initial, quantity, current) {
             output.style.color = "black";
             var loss = (initial - current) * quantity;
             var lossPercent = ((loss/(initial*quantity))*100).toFixed(2);
-            displayMessage("The loss is "+loss+ " and the loss percentage is " + lossPercent);
+            displayMessage("The loss is "+loss+ " and the loss percentage is " + lossPercent+" 🤒🤒🤒");
         } else if (current > initial) {
             output.style.backgroundColor = "green";
             output.style.color = "black";
             var profit = (current - initial) * quantity;
             var profitPercent = ((profit/(initial*quantity))*100).toFixed(2);
-            displayMessage("the profit is "+profit+ " and the profit percentage is " + profitPercent);
+            displayMessage("The Profit is "+profit+ " and the Profit Percentage is " + profitPercent+"🥳🥳🥳 ");
         } else {
-            displayMessage("No pain No gain");
+            displayMessage("No pain No gain!!");
         }
     }
 }
