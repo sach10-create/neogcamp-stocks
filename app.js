@@ -25,7 +25,7 @@ function calculateStocksResult(initial, quantity, current) {
             output.style.backgroundColor = "green";
             output.style.color = "black";
             var profit = (current - initial) * quantity;
-            var profitPercent = ((loss/(initial*quantity))*100).toFixed(2);
+            var profitPercent = ((profit/(initial*quantity))*100).toFixed(2);
             displayMessage("the profit is "+profit+ " and the profit percentage is " + profitPercent);
         } else {
             displayMessage("No pain No gain");
